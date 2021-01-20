@@ -1,4 +1,49 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: black;
+  
 }
 
+.app-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-main{
+  padding: 9%;
+  width: 50vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: auto;
+  box-shadow: 20px 20px 2px blue;
+  margin-top: 5rem;
+}
+#NextButton{
+  width: 150px;
+  background-color: red;
+  font-size: medium;
+  border-radius: 25px;
+}
+
+h4{
+  color: white;
+}
+#BooButton{
+  font-size: larger;
+  width: 10vh;
+  background-color: white;
+  border: 2px solid white;
+  
+  
+}
+#LaughButton {
+  font-size: larger;
+  width: 10vh;
+  background-color: white;
+  border: 2px solid white;
+  
+}
